@@ -84,10 +84,9 @@
       "ndim": 3
     },
     "huss": {
-      "standard_name": "specific_humidity",
+      "standard_name": "surface_specific_humidity",
       "units": "1",
-      "ndim": 3,
-      "modifier": "atmos_height"
+      "ndim": 3
     },
     "pr": {
       "standard_name": "precipitation_flux",
@@ -105,10 +104,14 @@
       "ndim": 3
     },
     "tas" : {
-      "standard_name": "air_temperature",
+      "standard_name": "surface_air_temperature",
       "units": "K",
-      "ndim": 3,
-      "modifier": "atmos_height"
+      "ndim": 3
+    },
+    "tasmax" : {
+      "standard_name": "maximum_air_temperature",
+      "units": "K",
+      "ndim": 3
     },
     "tauu": {
       "standard_name": "surface_downward_eastward_stress",
@@ -136,6 +139,11 @@
       "standard_name": "surface_air_pressure",
       "units": "Pa",
       "ndim": 3
+    },
+    "sftlf": {
+      "standard_name": "land_area_fraction",
+      "units": "%",
+      "ndim": 2
     },
     "psl": {
       "standard_name": "air_pressure_at_mean_sea_level",
